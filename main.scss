@@ -1,0 +1,324 @@
+// Variabel Warna
+$stabilo: #adcd13ff;
+$dark: #0000;
+$white: #ffff;
+$softpur: #eaeaf4;
+$darkpur: #777790;
+$mediumpur: #b4b5c9;
+$lilpur: #f9f9fb;
+$stabilo2: rgb(204, 234, 57);
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #ececec;
+}
+
+.banner {
+  height: 90vh;
+  margin-top: -70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/Jakarta.jpg');
+  background-size: cover;
+  background-position: center;
+}
+// CSS Navbar
+.navbar-ja {
+  padding-top: 15px;
+
+  .navbar-nav {
+    li {
+      padding-left: 20px;
+    }
+    .active {
+      color: $stabilo !important;
+      font-weight: 600 !important;
+    }
+    .nav-link {
+      color: $mediumpur;
+      font-weight: 400;
+    }
+  }
+}
+
+.banner {
+  h1 {
+    font-weight: bold;
+  }
+  h2 {
+    color: $stabilo !important;
+  }
+}
+
+.layanan-kami {
+  h2 {
+    color: $stabilo !important;
+  }
+  p {
+    color: $stabilo;
+  }
+}
+
+
+
+.section-produk-content {
+  .card-produk {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+  }
+
+  .produk-content {
+    min-height: 380px;
+  }
+
+  h3 {
+    font-size: 20px;
+    color: $stabilo;
+  }
+
+  .produk {
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    color: $stabilo;
+    font-weight: medium;
+  }
+}
+
+.layanan-kami {
+  h2 {
+    color: $stabilo;
+  }
+}
+
+// Footer
+
+.section-footer {
+  a {
+    color: $stabilo;
+  }
+}
+
+// Hovered Card
+.hovered-card {
+  transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.02);
+ }
+
+.container {
+  h1 {
+    color: black;
+    font-weight: bold;
+  }
+  h2 {
+    color: $stabilo;
+    font-weight: bold;
+  }
+}
+
+.section-details-content {
+  margin-top: -110px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #adadad;
+    }
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        width: 100%;
+        box-shadow: none;
+        margin-bottom: 10px;
+      }
+
+      .xactive {
+        border: 2px solid #1abc9c;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .features {
+    margin-top: 20px;
+
+    h3 {
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .description {
+      margin-left: 10px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .features-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+}
+
+// X-zoom
+.gallery {
+  .xzoom-container {
+    display: block;
+
+    .xzoom {
+      width: 100%;
+      box-shadow: none;
+      margin-bottom: 10px;
+    }
+
+    .xactive {
+      border: 2px solid #1abc9c;
+      box-shadow: none;
+    }
+  }
+}
+
+.container {
+  .card {
+    .card-details {
+      h1 {
+        color: $stabilo;
+      }
+    }
+  }
+}
+
+.btn-kirim {
+  background-color: $stabilo;
+  color: white;
+  
+  &:hover {
+    border: 1px solid $stabilo;
+    background-color: transparent;
+    color:$stabilo;
+  }
+}
+
+.btn-loading {
+  background-color: $stabilo;
+  color: white;
+}
+
+// image center
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+ 
+}
+
+
+
+
+
+
+.container {
+  .galeri {
+    padding: 3rem;
+  }
+}
+
+.h2 {
+  .galeri {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+.picture{
+  display: block;
+  width: 100%;
+  
+}
+
+.overlay {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right:0;
+  width:100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.caption {
+  
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.thumbnail:hover {
+  transform: translateY(-5px);
+}
+
+.image-content:hover .overlay {
+  opacity: 1;
+}
+
+.section-popular-produk:hover {
+  box-shadow: 0 0 20px 0px rgba (0, 0, 0, 10);
+}
+
+.card-img-top {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5%;
+}
+
+.card-text {
+  p {
+    color: #acacac;
+  }
+}

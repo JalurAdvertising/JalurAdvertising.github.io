@@ -1,0 +1,246 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #ececec;
+}
+
+.banner {
+  height: 90vh;
+  margin-top: -70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Jakarta.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-ja {
+  padding-top: 15px;
+}
+.navbar-ja .navbar-nav li {
+  padding-left: 20px;
+}
+.navbar-ja .navbar-nav .active {
+  color: #adcd13 !important;
+  font-weight: 600 !important;
+}
+.navbar-ja .navbar-nav .nav-link {
+  color: #b4b5c9;
+  font-weight: 400;
+}
+
+.banner h1 {
+  font-weight: bold;
+}
+.banner h2 {
+  color: #adcd13 !important;
+}
+
+.layanan-kami h2 {
+  color: #adcd13 !important;
+}
+.layanan-kami p {
+  color: #adcd13;
+}
+
+.section-produk-content .card-produk {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.section-produk-content .produk-content {
+  min-height: 380px;
+}
+.section-produk-content h3 {
+  font-size: 20px;
+  color: #adcd13;
+}
+.section-produk-content .produk {
+  font-weight: 200;
+  font-size: 16px;
+  text-align: center;
+  color: #adcd13;
+  font-weight: medium;
+}
+
+.layanan-kami h2 {
+  color: #adcd13;
+}
+
+.section-footer a {
+  color: #adcd13;
+}
+
+.hovered-card {
+  transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.02);
+}
+
+.container h1 {
+  color: black;
+  font-weight: bold;
+}
+.container h2 {
+  color: #adcd13;
+  font-weight: bold;
+}
+
+.section-details-content {
+  margin-top: -110px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #adadad;
+}
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  box-shadow: none;
+}
+.section-details-content .features {
+  margin-top: 20px;
+}
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+.gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  box-shadow: none;
+}
+
+.container .card .card-details h1 {
+  color: #adcd13;
+}
+
+.btn-kirim {
+  background-color: #adcd13;
+  color: white;
+}
+.btn-kirim:hover {
+  border: 1px solid #adcd13;
+  background-color: transparent;
+  color: #adcd13;
+}
+
+.btn-loading {
+  background-color: #adcd13;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.container .galeri {
+  padding: 3rem;
+}
+
+.h2 .galeri {
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.picture {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.caption {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.thumbnail:hover {
+  transform: translateY(-5px);
+}
+
+.image-content:hover .overlay {
+  opacity: 1;
+}
+
+.section-popular-produk:hover {
+  box-shadow: 0 0 20px 0px rgba 0, 0, 0, 10;
+}
+
+.card-img-top {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5%;
+}
+
+.card-text p {
+  color: #acacac;
+}/*# sourceMappingURL=main.css.map */
