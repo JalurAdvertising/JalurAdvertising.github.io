@@ -243,4 +243,17 @@ body {
 
 .card-text p {
   color: #acacac;
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+  color: white;
+  position: relative;
+}
+.carousel-item .container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
